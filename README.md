@@ -44,8 +44,11 @@ Every option can also be changed on its own in **VIDEO**.
 
 ## Mods and saves
 
-- Mods (rosters, uniforms, stadiums, schedules) go in `sdmc:/switch/mlbpowerpros2008/mods/<mod>/` and are
+- Mods (rosters, uniforms, stadiums, schedules, callnames) go in `sdmc:/switch/mlbpowerpros2008/mods/<mod>/` and are
   enabled in the launcher's **MODS** tab (they apply the next time you open the game). Same format as on PC.
+- **Callnames** (new player names for the commentators): make the mod on PC with the Callname Editor (or write
+  `callnames/callnames.toml` by hand), copy the mod folder to the SD and enable it. The first start after adding a
+  name takes a moment longer while its audio is encoded; later starts use the cache in `UserData/Cache`.
 - Saves, settings and logs are in `sdmc:/switch/mlbpowerpros2008/UserData/`.
 - Success player passwords: **EXPORT** / **IMPORT** in My Data use `UserData/Players/*.txt`, the same files as on PC.
 
@@ -107,8 +110,11 @@ Cada opción también se puede cambiar por separado en **VIDEO**.
 
 ## Mods y partidas
 
-- Los mods (rosters, uniformes, estadios, calendarios) van en `sdmc:/switch/mlbpowerpros2008/mods/<mod>/` y se
+- Los mods (rosters, uniformes, estadios, calendarios, callnames) van en `sdmc:/switch/mlbpowerpros2008/mods/<mod>/` y se
   activan en la pestaña **MODS** del launcher (se aplican la próxima vez que abras el juego). Mismo formato que en PC.
+- **Callnames** (nombres de jugador nuevos para los comentaristas): crea el mod en PC con el Editor de callnames (o
+  escribe `callnames/callnames.toml` a mano), copia la carpeta del mod a la SD y actívalo. El primer arranque tras
+  añadir un nombre tarda un poco más mientras se codifica su audio; los siguientes usan la caché de `UserData/Cache`.
 - Partidas, ajustes y logs están en `sdmc:/switch/mlbpowerpros2008/UserData/`.
 - Contraseñas de jugadores de Success: **EXPORT** / **IMPORT** en My Data usan `UserData/Players/*.txt`, los mismos
   archivos que en PC.
